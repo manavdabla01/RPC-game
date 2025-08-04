@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  height: 4rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(235, 235, 27);
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+ p {
+  font-size: 1.5rem;
+ }
+
+ #resetBtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.25rem;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/* Change background color on hover */
+#resetBtn:hover {
+  background-color: #45a049;
+}
+
+/* Change background color on active */
+#resetBtn:active {
+  opacity: 0.7;
+}
+
+/* emoji's */
+
+.choices {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(37, 32, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.choice:hover {
+  border: 4px solid rgb(233, 153, 190);
+}
+
+.choice:active {
+  opacity: 0.8;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+#comp-score, #user-score {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.colorChangeNmove {
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+#move {
+  display: inline;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 1.5rem; 
+}  
